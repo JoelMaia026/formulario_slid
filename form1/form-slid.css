@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: beige;
+}
+
+.paginacao {
+    text-align: center;
+}
+
+.paginacao a {
+    color: white;
+    background-color: rgb(7, 7, 10);
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    font-size: 20px;
+}
+
+
+/* mensagem*/
+
+#mensagem {
+    text-align: center;
+    color: rgb(212, 32, 0);
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid rgb(9, 177, 177);
+    ;
+}
+
+
+/*slid1*/
+
+.slid_1 {
+    text-align: center;
+    transition: 0.2s;
+}
+
+.op>a {
+    width: 280px;
+    padding: 20px 0px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.slid_1 a {
+    display: block;
+    background-color: rgb(252, 167, 39);
+}
+
+
+/*slid 2*/
+
+.slid_2 {
+    transition: 0.2s;
+}
+
+.slid_2 h2 {
+    text-align: center;
+}
+
+.slid_2>a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(255, 167, 35);
+    text-align: center;
+    margin: 6px 10px;
+}
+
+
+/*slid hover*/
+
+a.opclick {
+    color: rgb(250, 250, 250);
+    background-color: chartreuse;
+}
+
+.op a:hover {
+    color: white;
+    background-color: rgb(7, 7, 10);
+}
+
+.paginacao a.active {
+    color: white;
+    background-color: chartreuse;
+}
+
+
+/*slid 3*/
+
+#info_3 {
+    text-align: center;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    resize: none;
+    padding: 10px;
+}
+
+
+/*slid 4*/
+
+#info_4 h2 {
+    text-align: center;
+}
+
+#info_4 input {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 8px 5px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+#info_4 .btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    background-color: chartreuse;
+    border-color: rgba(255, 255, 255, 0.192);
+    float: right;
+}
+
+
+/*rodapé*/
+
+.footer {
+    width: 80%;
+    height: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.192);
+}
+
+.btn-v {
+    background-color: rgb(252, 167, 39);
+}
+
+.btn-p {
+    background-color: chartreuse;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-slid.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--paginação-->
+        <div class="container paginacao">
+            <a class="">01</a>
+            <a class="">02</a>
+            <a class="">03</a>
+            <a class="">04</a>
+        </div>
+        <div class="container content">
+            <div id="mensagem">
+                <hr>
+                <h4></h4>
+                <hr>
+            </div>
+            <!--primeiro menu-->
+            <div class="op slid_1 slid">
+                <h2>Qual é o seu segmento?</h2>
+                <a>CORPORATIVA</a>
+                <a>IGREJA</a>
+                <a>MUSICA E ARTE</a>
+                <a>PESSOAL</a>
+            </div>
+            <!--segundo menu-->
+            <div class="op slid_2 slid">
+                <h2>ESCOLHA OS SEUS PROJECTOS</h2>
+                <a>WEBSITE</a>
+                <a>BLOG</a>
+                <a>MÚSICA SOCIAL</a>
+                <a>MÍDIA GRÁFICA</a>
+                <a>E-COMMERCE</a>
+                <a>FOTOGRAFIA</a>
+                <a>PROJECTO GRÁFICO PRA CD</a>
+                <a>PROJECTO GRÁFICO PRA DVD</a>
+                <a>LOGO MARCA</a>
+                <a>PAPELARIA</a>
+                <a>OUTRO TIPO DE PROJECTO</a>
+            </div>
+            <!--terceiro menu-->
+            <div class="slid" id="info_3">
+                <h2>OUTRO TIPO DE PROJECTO</h2>
+                <p>Descreve-nos o teu tipo de projecto</p>
+                <textarea></textarea>
+            </div>
+            <!--quarto meu-->
+            <div class="slid" id="info_4">
+                <h2> INFORMAÇÕES DE CONTACTO</h2>
+                <form method="POST" name="dados_cliente" onsubmit="dados()">
+                    <input type="text" placeholder="Nome da Empresa" name="nome" required>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                    <input type="text" placeholder="Responsável" name="responsavel" required>
+                    <input type="number" placeholder="+244 telefone" name="telefone">
+                    <input type="submit" class="btn" value="Concluir">
+                </form>
+            </div>
+        </div>
+        <!---->
+        <div class="container footer">
+            <button class="btn btn-v" onclick="voltar()">Voltar</button>
+            <button class="btn btn-p" onclick="proximo()">Próximo</button>
+        </div>
+    </div>
+    <script src="escript.js"></script>
+</body>
+
+</html>
